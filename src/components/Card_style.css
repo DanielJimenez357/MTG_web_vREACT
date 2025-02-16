@@ -1,0 +1,13 @@
+img {
+    margin: 4px;
+    width: 140px;
+}
+
+
+.placeForCards{
+    background-color: steelblue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+}
