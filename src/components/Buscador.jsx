@@ -1,8 +1,8 @@
-
 import { useState } from "react"
-import Card from "./Card"
+import CardGrid from "./CardGrid"
 
 export default function Buscador () {
+
 
     const [inputValue, setInputValue] = useState('squirrel')
 
@@ -15,7 +15,7 @@ export default function Buscador () {
                 value={inputValue}
                 onChange={(e)=> setInputValue(e.target.value)}
                 ></input>
-                <Card
+                <CardGrid
                     cardToSearch = {inputValue}
                 />
             </div>
